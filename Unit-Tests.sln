@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InDotNetFramework48", "InDo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InDotNet7", "InDotNet7\InDotNet7.csproj", "{ABFC57B7-6A20-497D-AC2F-B3367A003D12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InDotNetFramework48.UnitTests", "InDotNetFramework48.UnitTests\InDotNetFramework48.UnitTests.csproj", "{DAD03E67-A314-4B4D-BF72-F96D658DB350}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9981BC8D-9BAC-40B2-A5B0-AAC1F60A1FC7} = {9981BC8D-9BAC-40B2-A5B0-AAC1F60A1FC7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InDotNet7.UnitTests", "InDotNet7.UnitTests\InDotNet7.UnitTests.csproj", "{24DF0779-CFA1-4E8B-8287-B141953F310E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ABFC57B7-6A20-497D-AC2F-B3367A003D12} = {ABFC57B7-6A20-497D-AC2F-B3367A003D12}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +31,14 @@ Global
 		{ABFC57B7-6A20-497D-AC2F-B3367A003D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABFC57B7-6A20-497D-AC2F-B3367A003D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABFC57B7-6A20-497D-AC2F-B3367A003D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD03E67-A314-4B4D-BF72-F96D658DB350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD03E67-A314-4B4D-BF72-F96D658DB350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD03E67-A314-4B4D-BF72-F96D658DB350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD03E67-A314-4B4D-BF72-F96D658DB350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24DF0779-CFA1-4E8B-8287-B141953F310E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DF0779-CFA1-4E8B-8287-B141953F310E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24DF0779-CFA1-4E8B-8287-B141953F310E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24DF0779-CFA1-4E8B-8287-B141953F310E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
