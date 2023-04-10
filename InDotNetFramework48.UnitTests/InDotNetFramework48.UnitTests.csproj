@@ -54,7 +54,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fundamentals\CustomerControllerTests.cs" />
+    <Compile Include="Fundamentals\DateHelperTests.cs" />
+    <Compile Include="Fundamentals\DemeritPointsCalculatorTests.cs" />
+    <Compile Include="Fundamentals\ErrorLoggerTests.cs" />
     <Compile Include="Fundamentals\FizzBuzzTests.cs" />
+    <Compile Include="Fundamentals\HtmlFormatterTests.cs" />
+    <Compile Include="Fundamentals\MathTests.cs" />
+    <Compile Include="Fundamentals\PhoneNumberTests.cs" />
+    <Compile Include="Fundamentals\ReservationTests.cs" />
+    <Compile Include="Fundamentals\StackTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
