@@ -8,7 +8,7 @@ namespace InDotNetFramework48.Fundamentals
         public string Major { get; }
         public string Minor { get; }
 
-        private PhoneNumber(string area, string major, string minor)
+        public PhoneNumber(string area, string major, string minor)
         {
             Area = area;
             Major = major;
